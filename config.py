@@ -1,12 +1,12 @@
 from telethon.sync import TelegramClient
 from telethon.sessions import StringSession
 import os
-APP_ID = os.environ.get("APP_ID")
-APP_HASH = os.environ.get("APP_HASH")
+APP_ID = os.environ.get("APP_ID"21943556)
+APP_HASH = os.environ.get("APP_HASH"646d0a2ddb943a9cfc45684652252e64)
 BOT_USERNAME = os.environ.get("BOT_USERNAME")
-session = os.environ.get("TERMUX")
-SESSION = os.environ.get("TERMUX")
-token = os.environ.get("TOKEN")
+session = os.environ.get("1BJWap1sBuzppW9tkmjaS0sH92KwtziRw5Sx3RB1D38e-s1HB0ucgn6ZfH2_78TGrRDfKIg-PFLaSW89be3mReIULNfSKVe94R22DCp7kv2EkMBYLHgcJH6wlk2nzvkJj_cRpNXRzeJoyBqYXtkes6jTpFkti2O7orYDk8mB_9jsPwGVACMKDBK3uAtJ0VXu1vAJCfsOzZsIvZYjLBNzl69pS0yN0xyL3qtzzRKkb2ENqlipUfG0llcgpzNdWZDXW710Kym5H6_5ScJYcJJf0NEywlF8CzJYpoZvARU85aF6Jzio4MtgRS3NZkRhJIeNnlVBlehomL964cjuikuq0jhhKX4anFMg=")
+SESSION = os.environ.get("1BJWap1sBuzppW9tkmjaS0sH92KwtziRw5Sx3RB1D38e-s1HB0ucgn6ZfH2_78TGrRDfKIg-PFLaSW89be3mReIULNfSKVe94R22DCp7kv2EkMBYLHgcJH6wlk2nzvkJj_cRpNXRzeJoyBqYXtkes6jTpFkti2O7orYDk8mB_9jsPwGVACMKDBK3uAtJ0VXu1vAJCfsOzZsIvZYjLBNzl69pS0yN0xyL3qtzzRKkb2ENqlipUfG0llcgpzNdWZDXW710Kym5H6_5ScJYcJJf0NEywlF8CzJYpoZvARU85aF6Jzio4MtgRS3NZkRhJIeNnlVBlehomL964cjuikuq0jhhKX4anFMg=")
+token = os.environ.get("6882986118:AAGYYBQxDWlG2PG3f7pkHocq7I1_LzyUggM")
 fifthon = TelegramClient(StringSession(session), APP_ID, APP_HASH)
 bot = TelegramClient("bot", APP_ID, APP_HASH).start(bot_token=token)
 ispay = ['yes']
